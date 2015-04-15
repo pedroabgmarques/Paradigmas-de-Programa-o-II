@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Apontadores", "Apont. e Listas Ligadas Simples\Apont. e Listas Ligadas Simples.vcxproj", "{8ACB592F-B885-483C-AD03-DC77DC09C283}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Listas Ligadas Simples", "Listas Ligadas Simples\Listas Ligadas Simples.vcxproj", "{56917FB7-9855-4B77-9D23-3BEE8088BB40}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Listas Ligadas Recursivas", "Listas Ligadas Recursivas\Listas Ligadas Recursivas.vcxproj", "{7482BDFA-E239-4649-B94B-7F2E47B787A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Snake Game - Listas Ligadas", "Snake Game - Listas Ligadas\PP2-Snake\Snake Game - Listas Ligadas.vcxproj", "{9F998B83-525C-4CE4-865C-A22C20AD8F5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Snake do Paulo", "Snake do Paulo\Snake do Paulo.vcxproj", "{DB049623-AF24-4BB9-9931-2B74BBF84D72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Multilistas", "Listas Duplamente Ligadas\Listas Duplamente Ligadas.vcxproj", "{AB7CC7B2-6BEF-4DBA-A8D5-9F1F79F35AD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arvores", "Arvores\Arvores.vcxproj", "{F5E5F645-AC5B-4D53-95CC-CD531BF0C3D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ACB592F-B885-483C-AD03-DC77DC09C283}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8ACB592F-B885-483C-AD03-DC77DC09C283}.Debug|Win32.Build.0 = Debug|Win32
+		{8ACB592F-B885-483C-AD03-DC77DC09C283}.Release|Win32.ActiveCfg = Release|Win32
+		{8ACB592F-B885-483C-AD03-DC77DC09C283}.Release|Win32.Build.0 = Release|Win32
+		{56917FB7-9855-4B77-9D23-3BEE8088BB40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56917FB7-9855-4B77-9D23-3BEE8088BB40}.Debug|Win32.Build.0 = Debug|Win32
+		{56917FB7-9855-4B77-9D23-3BEE8088BB40}.Release|Win32.ActiveCfg = Release|Win32
+		{56917FB7-9855-4B77-9D23-3BEE8088BB40}.Release|Win32.Build.0 = Release|Win32
+		{7482BDFA-E239-4649-B94B-7F2E47B787A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7482BDFA-E239-4649-B94B-7F2E47B787A5}.Debug|Win32.Build.0 = Debug|Win32
+		{7482BDFA-E239-4649-B94B-7F2E47B787A5}.Release|Win32.ActiveCfg = Release|Win32
+		{7482BDFA-E239-4649-B94B-7F2E47B787A5}.Release|Win32.Build.0 = Release|Win32
+		{9F998B83-525C-4CE4-865C-A22C20AD8F5D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F998B83-525C-4CE4-865C-A22C20AD8F5D}.Debug|Win32.Build.0 = Debug|Win32
+		{9F998B83-525C-4CE4-865C-A22C20AD8F5D}.Release|Win32.ActiveCfg = Release|Win32
+		{9F998B83-525C-4CE4-865C-A22C20AD8F5D}.Release|Win32.Build.0 = Release|Win32
+		{DB049623-AF24-4BB9-9931-2B74BBF84D72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB049623-AF24-4BB9-9931-2B74BBF84D72}.Debug|Win32.Build.0 = Debug|Win32
+		{DB049623-AF24-4BB9-9931-2B74BBF84D72}.Release|Win32.ActiveCfg = Release|Win32
+		{DB049623-AF24-4BB9-9931-2B74BBF84D72}.Release|Win32.Build.0 = Release|Win32
+		{AB7CC7B2-6BEF-4DBA-A8D5-9F1F79F35AD7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB7CC7B2-6BEF-4DBA-A8D5-9F1F79F35AD7}.Debug|Win32.Build.0 = Debug|Win32
+		{AB7CC7B2-6BEF-4DBA-A8D5-9F1F79F35AD7}.Release|Win32.ActiveCfg = Release|Win32
+		{AB7CC7B2-6BEF-4DBA-A8D5-9F1F79F35AD7}.Release|Win32.Build.0 = Release|Win32
+		{F5E5F645-AC5B-4D53-95CC-CD531BF0C3D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5E5F645-AC5B-4D53-95CC-CD531BF0C3D9}.Debug|Win32.Build.0 = Debug|Win32
+		{F5E5F645-AC5B-4D53-95CC-CD531BF0C3D9}.Release|Win32.ActiveCfg = Release|Win32
+		{F5E5F645-AC5B-4D53-95CC-CD531BF0C3D9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
