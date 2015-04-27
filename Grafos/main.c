@@ -6,8 +6,6 @@
 
 int grafo[LINHAS][COLUNAS];
 
-int visitado[LINHAS];
-
 void inicializarGrafo(){
 	for (int i = 0; i < LINHAS; i++){
 		for (int j = 0; j < COLUNAS; j++){
@@ -58,15 +56,31 @@ void antecessores(int vertice){
 	}
 }
 
-void travessiaProfundidade(int vertice, int visitados[LINHAS]){
+int travessiaProfundidade(int vertice, int visitados[LINHAS], int contador){
 	visitados[vertice] = 1;
 	printf("%d ", vertice);
+	
 	for (int i = 0; i < LINHAS; i++){
 		if (grafo[vertice][i] != -1 && !visitados[i]){
-			travessiaProfundidade(i, visitados);
+			travessiaProfundidade(i, visitados, contador);
 		}
 	}
+	return contador + 1;
 }
+
+int numeroNosGrafo(){
+	int contador = 0;
+	for (int i = 0; i < LINHAS; i++){
+		for (int j = 0; j < COLUNAS; j++){
+			if (grafo[i][j] != -1){
+				contador++;
+			}
+		}
+	}
+	return contador*2;
+}
+
+
 
 
 int main(){
@@ -79,14 +93,15 @@ int main(){
 	inicializarGrafo();
 
 	inserirAresta(0, 1, 5);
-	inserirAresta(0, 2, 10);
-	inserirAresta(1, 2, 7);
+
+
 	inserirAresta(2, 3, 2);
+
 
 
 	listar();
 
-	removerAresta(1, 1);
+	//removerAresta(1, 1);
 
 	listar();
 
@@ -94,9 +109,15 @@ int main(){
 
 	antecessores(2);
 
+	int contadorNos = 0;
+
 	printf("\nTravessia em profundidade: (Depth-First)\n");
-	travessiaProfundidade(0, visitados);
+	travessiaProfundidade(0, visitados, contadorNos);
 	printf("\n");
+
+	printf("\nNumero de nos no grafo: %d\n", numeroNosGrafo());
+
+	printf("Numero de nos visitados: %d\n", contadorNos);
 
 	return 1;
 }
