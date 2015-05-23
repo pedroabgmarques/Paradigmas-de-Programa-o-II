@@ -14,7 +14,7 @@ typedef struct livro
 
 //Alínea a)
 int fHash(char codigo[]){
-	int sum, i;
+	int sum = 0, i;
 	for (i = 0; i < strlen(codigo); i++){
 		sum += codigo[i];
 	}
