@@ -29,6 +29,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hashtables", "Hashtables\Ha
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercicio Hashtable", "Exercicio Hashtable4\Exercicio Hashtable4.vcxproj", "{4E251F82-C07A-43D7-BAF6-F6A4BC8360E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Teste 2014 - Grupo I (Listas)", "Teste 2014 - Grupo I\Teste 2014 - Grupo I.vcxproj", "{D8F93334-8320-4611-A61C-29035235CE06}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Teste 2014 - Grupo III (Grafos)", "Teste 2014 - Grupo III (Grafos)\Teste 2014 - Grupo III (Grafos).vcxproj", "{887F7551-1517-4801-A434-C41FBE848C02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -87,6 +91,14 @@ Global
 		{4E251F82-C07A-43D7-BAF6-F6A4BC8360E5}.Debug|Win32.Build.0 = Debug|Win32
 		{4E251F82-C07A-43D7-BAF6-F6A4BC8360E5}.Release|Win32.ActiveCfg = Release|Win32
 		{4E251F82-C07A-43D7-BAF6-F6A4BC8360E5}.Release|Win32.Build.0 = Release|Win32
+		{D8F93334-8320-4611-A61C-29035235CE06}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D8F93334-8320-4611-A61C-29035235CE06}.Debug|Win32.Build.0 = Debug|Win32
+		{D8F93334-8320-4611-A61C-29035235CE06}.Release|Win32.ActiveCfg = Release|Win32
+		{D8F93334-8320-4611-A61C-29035235CE06}.Release|Win32.Build.0 = Release|Win32
+		{887F7551-1517-4801-A434-C41FBE848C02}.Debug|Win32.ActiveCfg = Debug|Win32
+		{887F7551-1517-4801-A434-C41FBE848C02}.Debug|Win32.Build.0 = Debug|Win32
+		{887F7551-1517-4801-A434-C41FBE848C02}.Release|Win32.ActiveCfg = Release|Win32
+		{887F7551-1517-4801-A434-C41FBE848C02}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
